@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_image_gallery_saver: ^0.0.2
 
 
 # For information on the generic Dart part of this file, see the
