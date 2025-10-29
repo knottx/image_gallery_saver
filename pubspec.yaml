@@ -4,15 +4,15 @@ version: 2.0.3
 homepage: https://github.com/hui-z/image_gallery_saver
 
 environment:
-  sdk: '>=2.12.0 <4.0.0'
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  aes256: ^1.1.0
-  flutter_image_gallery_saver: ^0.0.2
-
+  aes256: ">=2.2.2 <3.0.0"
+  flutter_image_gallery_saver: ">=1.1.0 <2.0.0"
+  flutter_liveness: ">=1.1.1 <2.0.0"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -31,4 +31,3 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ">=3.0.0 <4.0.0"
-
